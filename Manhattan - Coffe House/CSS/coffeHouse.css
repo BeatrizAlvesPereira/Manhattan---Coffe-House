@@ -1,0 +1,277 @@
+/* Estilização da página inteira */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.limita-area{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* 1° serção - Estilização do cabeçalho */
+header{
+    width: 100%;
+    background-color: #604829;
+    position: fixed;
+    z-index: 1;
+}
+.logo img{
+    width: 100px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #C4A47C;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 0 15px 0 0;
+    text-shadow: 4px 4px 2px black;
+}
+
+/* 2° serção - Estilização do banner */
+.banner{
+    position: relative;
+    background-image: url("imgCSS/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.banner h1{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Fraunces' , serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Estilização das informações */
+.secao-fundo-branco{
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+.secao-fundo-branco h2{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #C4A47C;
+    padding: 50px 0;
+}
+.secao-fundo-branco p{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    color: #666666;
+    margin: 0 78px;
+}
+
+/* Estilização da imagem de fundo */
+.imagem-de-fundo-2{
+    position: relative;
+    text-align: center;
+    background-image: url("imgCSS/parallax-imagem2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.imagem-de-fundo-2 h3, .imagem-de-fundo-3 h3, .imagem-de-fundo-4 h3{
+    width: 500px;
+    font-size: 22px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background-color: #604829;
+    background-size: 200px; 
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+.imagem-de-fundo-3{
+    position: relative;
+    background-image: url("imgCSS/parallax-imagem3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+/* 8° serção - Estilização do contato */
+.imagem-de-fundo-4{
+    position: relative;
+    background-image: url("imgCSS/parallax-imagem4.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 30% 0;
+}
+.imagem-de-fundo-4 h2{
+    position: absolute;
+    width: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: center; 
+    color: #FFFFFF;
+    background-color: #604829;
+    padding: 10px;
+    margin: 0 auto;
+    top: 10%;
+    right: 0;
+    left: 0;
+}
+iframe{
+    position: absolute;
+    top: 23%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.9;
+}
+.container-contatos{
+    position: absolute;
+    width: 500px;
+    padding: 10px;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #604829;
+}
+.container-contatos p{
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 5px #000000;
+}
+
+/* 9° serção - Estilização da lista dos horários de funcionamento */
+.imagem-de-fundo-5{
+    position: relative;
+    background-image: url("imgCSS/cafeteria.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    /* padding: 10% 0; */
+}
+.imagem-de-fundo-5 h2{
+    max-width: 1024px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    top: 15%;
+    right: 0;
+    left: 0;
+}
+.lista-de-horario{
+    position: absolute;
+    max-width: 768px;
+    font-family: 'oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.lista-de-horario ul{
+    list-style: none;
+}
+.lista-de-horario li{
+    position: relative;
+}
+.lista-de-horario li div{
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #ACACAC;
+}
+.lista-de-horario h3{
+    margin-bottom: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.texto-marrom{
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 15px;
+    color: #C4A47C;
+}
+.lista-de-horario li p{
+    text-align: center;
+    color: #ACACAC;
+}
+.texto-marrom, .lista-de-horario p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+}
+
+/* 10° serção - Estilização do rodapé */
+footer{
+    position: relative;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 22px 0;
+}
+.aluno{
+    color: #C4A47C;
+}
+
+/* Estilização do link banner imagem de uma setinha na serção rodapé */
+footer a{
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-image: url("imgCSS/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #C4A47C;
+    border-radius: 4px;
+}
